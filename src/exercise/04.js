@@ -32,8 +32,9 @@ function SlooooowSibling() {
   // try this with useLayoutEffect as well to see
   // how it impacts interactivity of the page before updates.
   React.useEffect(() => {
+    console.log('about to sleep...')
     // increase this number to see a more stark difference
-    sleep(300)
+    sleep(1500)
   })
   return null
 }
